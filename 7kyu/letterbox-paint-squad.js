@@ -32,7 +32,7 @@
 
 //✅SOLUTION:
 
-function solution(start, end) {
+var paintLetterboxes = function(start, end) {
     const res = new Array(10).fill(0);
     for (let i = start; i <= end; i++) {
         const num = String(i);
@@ -43,5 +43,5 @@ function solution(start, end) {
     return res;
 }
 
-console.log("solution: ", solution(125, 132))
+console.log("solution: ", paintLetterboxes(125, 132))
 
